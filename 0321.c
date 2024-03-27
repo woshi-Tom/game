@@ -29,8 +29,9 @@ void updateSnake() {
 }
 
 void draw() {
+    int i;
     // 绘制蛇身
-    for (int i = 0; i < snakeLength; i++) {
+    for (i = 0; i < snakeLength; i++) {
         printf("%c", (i == 0) ? '*' : '+'); // 头部用 * 表示，身体用 + 表示
     }
 }
